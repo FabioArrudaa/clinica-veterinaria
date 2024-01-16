@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: #4169e1;
+  padding: 10px 20px 0px;
+}
+.menu ul {
+  justify-content: left;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f1f1f1;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+.menu ul li {
+  padding: 5px;
+  justify-content: left;
+}
+
+.header {
+  min-height: 150px;
+  text-align: center;
+  background-color: #4169e1;
+}
+
+.logo-tipo {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  background-color: #b0c4de;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.content table {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+}
+.servicos {
+  background-color: #b0c4de;
+  padding: 20px;
+}
+.servicos ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+}
+.servicos ul li {
+  padding: 5px;
+}
+.footer {
+  background-color: #6495ed;
+  border: 1px solid black;
+  min-height: 150px;
+  padding: 1px 1px 10px 15px;
+}
+
+.table {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.thead {
+  background-color: #4169e1;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.tbody {
+  font-size: 15px;
+  border: solid 1px black;
+}
